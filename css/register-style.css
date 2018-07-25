@@ -1,34 +1,66 @@
+body
+{
+    background-image: url(../images/185808-OXENJI-55.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+
 #containerMain
 {
     width: 80%;
-    height: 600px;
-    margin: 10% auto;
-    background-color: silver;
+    height: 500px;
+    margin: 5%  auto 2% auto;
 }
 
 #containerHeader
 {
     width: 100%;
-    height: 100px;
-     background-color: red;
+    height: 20%;
+    background-color: none; 
 }
 
 .containerHElement
 {
-    width: 50%;
-    height: 100px;
-    background-color: blue;
-    float: left;
-    padding: 5%;
-   
+    width: 41%;
+    background-color: #319c49; /*#58dd11*/
+    display: inline-block;
+    height: 100%; 
 }
 
+
+#conHElemntR
+{
+        margin-left: 8%;
+
+}
+
+#conHElemntL
+{
+        margin-right: 8%;
+}
+
+h2
+{
+    color: white;
+    font-family: "Harmattan";
+    text-align: center;
+    margin: 10% auto;
+    
+}
 #containerBody
 {
     width: 100%;
     height: 80%;
-    background-color: olivedrab;
-    margin: 10px auto;
+    background-color: #112029;
+    margin: 0 auto;
+    border: 3px solid white;
 }
 
-/*dssd*/
+
+/*footer*/
+footer p
+{
+    color: white;
+}
