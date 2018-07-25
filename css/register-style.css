@@ -5,3 +5,28 @@
     margin: 10% auto;
     background-color: silver;
 }
+
+#containerHeader
+{
+    width: 100%;
+    height: 100px;
+     background-color: red;
+}
+
+.containerHElement
+{
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+    float: left;
+    padding: 5%;
+   
+}
+
+#containerBody
+{
+    width: 100%;
+    height: 80%;
+    background-color: olivedrab;
+    margin: 10px auto;
+}
