@@ -1,0 +1,102 @@
+
+body
+{
+    direction: rtl;
+}
+
+.nav-item
+{
+    margin: 0 auto;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+
+.bg-dark
+{
+   background-color: #319c49!important;
+}
+
+h1
+{
+    font-family: 'Lalezar','sans-serif';
+}
+p
+{
+    font-family: 'Tajawal','sans-serif';
+}
+
+.rounded-circle
+{
+    background-color: #EAECEF;
+}
+
+.row h2
+{
+    font-family: 'Harmattan','sans-serif';
+}
+.featurette-image
+{
+max-width: 300px;
+ max-height: 350px;
+}
+.featurette-sub-headding
+{
+    font-family: 'Tajawal';
+    font-weight: bold;
+    text-align: right;
+}
+.lead , .featurette-heading
+{
+   
+    text-align: right;
+}
+
+@media (min-width:768px)
+{
+    
+    .border-hover:hover
+    {
+        border: 1px solid white;
+        border-radius: 10px;
+    }  
+    .borderr
+    {
+    border: 1px solid white;
+    border-radius: 10px;
+    }
+    .nav-item{
+        margin-left: 10px;
+    }
+    
+}
+
+@media (max-width:767px)
+{
+    .nav-item
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .nav-item:hover
+    {
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+}
+
+.logo
+{
+    width:70px;
+    height: 50px;
+    margin-right: 0;
+    padding: 0;
+}
+
+/*
+.btn-outline-success
+{
+    background-color: #007bffad;
+}*/
