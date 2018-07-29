@@ -10,7 +10,7 @@ body
 #containerMain
 {
     width: 80%;
-    height: 500px;
+    height: 550px;
     margin: 5%  auto 2% auto;
 }
 
@@ -49,6 +49,14 @@ h2
     margin: 10% auto;
     
 }
+
+.required
+{
+    font-size: 0.7em;
+    color: red;
+}
+
+
 #containerBody
 {
     width: 100%;
@@ -56,6 +64,41 @@ h2
     background-color: #112029;
     margin: 0 auto;
     border: 3px solid white;
+    text-align: right;
+}
+
+label
+{
+    font-size: 1.4em;
+    color: white;
+    direction: rtl;
+    text-align: right;
+}
+
+.parts
+{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bothNames
+{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.parts-elm-3
+{
+    width: 25%;
+    margin: 0 auto;
+    
+}
+
+.col-md-3
+{
+   
 }
 
 

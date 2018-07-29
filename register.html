@@ -64,90 +64,89 @@
           </header>
           
           <div id="containerBody">
-              <!-- FormOfStudentStartHere -->
+                                                    <!-- FormOfStudentStartHere -->
             <form class="needs-validation" novalidate>
-  <div class="form-row">
+  
       
-      <!-- NameStart -->
-      <div style="display: flex;width: 100%">
-          
+                                                            <!-- NameStart -->
+      <div class="parts">  
       <!-- FirstNameStart -->
-      <div class="col-md-4 mb-3">
-      <label for="validationCustom01">*الأسم الأول</label>
+      <div class="col-md-6 mb-6 col-6">
+      <label for="validationCustom01">الأسم الأول<span class="required"> *</span></label>
       <input type="text" class="form-control" id="validationCustom01" placeholder="محمد"  required>
-      <div class="valid-feedback">
-      </div>
     </div>
       <!-- FirstNameEnd -->
       
       <!-- LastNameStart -->
-    <div class="col-md-4 mb-3">
-      <label for="validationCustom02">*العائلة</label>
+    <div class="col-md-6 mb-6 col-6">
+      <label for="validationCustom02">العائلة<span class="required"> *</span></label>
       <input type="text" class="form-control" id="validationCustom02" placeholder="المحمد" required>
-      <div class="valid-feedback">  
       </div>
+      <!-- LastNameEnd -->  
+          
+    
+    <!-- NicknameStart-->
+<!--
+      <div class="col-md-4 mb-3 col-6">
+      <label for="validationCustom02">اللـقب<span class="required"> *</span></label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="أبو يوسف" required>
       </div>
-      <!-- LastNameEnd -->
+-->
+          <!-- NicknameEnd-->
           
       </div>
-      <!-- NameEnd -->
-      
-      <!-- EmailWithPasswordWithConfirmStart -->
-      <div style="display: flex;width: 100%">
-          
+                                                            <!-- NameEnd -->
+           
+                                                    <!-- EmailWithPasswordWithConfirmStart -->
+      <div class="parts">  
           <!-- EmailStart -->
-      <div class="form-group">
-    <label for="inputEmail" class="control-label">*البريد الألكتروني</label>
-    <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
-    <div class="help-block with-errors"></div>
+      <div class="col-4">
+    <label for="inputEmail" class="control-label">البريد الألكتروني<span class="required"> *</span></label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="xx@xxxxxx.com" data-error="Bruh, that email address is invalid" required>
+        <!--  <div class="help-block with-errors"></div>-->
   </div>
   <!-- EmailEnd -->
           
           <!-- PasswordStart -->
-  <div class="form-group">
-    <label for="inputPassword" class="control-label">*الرقم السري</label>
-    <div class="form-inline row">
+  <div class="col-4">
+    <label for="inputPassword" class="control-label">الرقم السري<span class="required"> *</span></label>
       <div class="form-group">
         <input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required>
-        <div class="help-block"></div>
+        <!-- <div class="help-block"></div>-->
       </div>
-      </div>
-          </div>
+  </div>
           <!-- PasswordEnd -->
-        <!-- -->
-      <div class="form-group">
-          <label for="inputPasswordConfirm" class="control-label">*تأكيد الرقم السري</label>
+        <!-- VerfiyPasswordStart-->
+      <div class="col-4">
+          <label for="inputPasswordConfirm" class="control-label">تأكيد الرقم السري<span class="required"> *</span></label>
         <input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm" required>
-        <div class="help-block with-errors"></div>
+       <!-- <div class="help-block with-errors"></div>-->
       </div>
-        <!-- -->
-    
-          
+    <!-- VerfiyPasswordEnd-->
       </div>
-      <!-- EmailWithPasswordWithConfirmEnd -->
-      
-      
+                                            <!-- EmailWithPasswordWithConfirmEnd -->
+                                        <!-- third level of element Start  Sex , city and level of study -->
+      <div class="parts">
       <!-- DivGenderAndCityStart -->
-        <div class="control-group"  >
-            
+        <div class="control-group col-4"  >          
             <!-- GenderStart -->
-  <label class="control-label" for="gender">*الجنس</label>
+  <label class="control-label" for="gender">الجنس<span class="required"> *</span></label>
   <div class="controls">
-    <label class="radio inline" for="gender-0">
+    <label class="radio inline col-4" for="gender-0">
       <input name="gender" id="gender-0" value="Male" checked="checked" type="radio">
       ذكر
     </label>
-    <label class="radio inline" for="gender-1">
+    <label class="radio inline col-4" for="gender-1">
       <input name="gender" id="gender-1" value="Female" type="radio">
       أنثى
     </label>
   </div>
-             </div>
+         </div>
       <!-- GenderEnd -->
       
       <!-- CityStart -->
-      <div class="form-group" id="divCity">
-    <label class="mandatory control-label">*المدينة</label>
+      <div class="form-group col-4" id="divCity">
+    <label class="mandatory control-label">المدينة<span class="required"> *</span></label>
     <div class="LargeDropDownListCityId" >
         <select id="CityId" class="form-control"  required>
         	<option value="">اختر...</option>
@@ -243,62 +242,64 @@
             
            
             <!-- DivGenderAndCityEnd -->
-      </div>
+     
                 
                 
                 
       <!-- DegreeStart --> 
-                <div class="form-group row">
-                <div class="form-group col-xs-12 col-sm-6 col-md-3 col-lg-2">
-                <div class="col-xs-12 SearchResultsIcon Degree">
-                    <label>المرحلة الدراسية</label>
-                </div>
-                <div class="col-xs-12" style="margin-top: 10px;">
-                    <select required>
+                <div class="form-group col-4" id="divCity">
+                    <label class="mandatory control-label">المرحلة الدراسية<span class="required"> *</span></label>
+                <div class="LargeDropDownListCityId" >
+                    <select id="CityId" class="form-control"  required> 
                     <option value="">اختر...</option>
                     <option value="01">الأبتدائي</option>
                     <option value="02">المتوسط</option>
                     <option value="03">الثانوي</option>
                     <option value="">الجامعي</option>
-                    
                     </select>
-                </div>
-            </div>
-
+                    </div>
+          </div>
+                
+               
       <!-- DegreeEnd -->
-                
-                
+                  
+                </div>
+                      <!-- third level of element   "Sex , city and level of study" End -->
+
+     <div class="parts">        <!-- Fourth part of element "date , Phone and submit " Start -->
       <!-- DateStart -->
-      <div class="col-10">
-  <label for="example-date-input" class="col-2 col-form-label" >*تاريخ الميلاد</label>
-    <input style="width: auto" class="form-control" type="date"  id="example-date-input" required>
+      <div class="col-4">
+  <label for="example-date-input" class="control-label" >تاريخ الميلاد<span class="required"> *</span></label>
+    <input style="width: 100%" class="form-control" type="date"  id="example-date-input" required>
   </div>
-</div>
-      <!--- -->
-      
-     
       <!-- DateEnd -->
                 
+                
       <!-- PhoneStart -->
-                <div class="col-10" >
-  <label style="display:block" for="example-date-input" class="col-2 col-form-label" >*رقم الجوال</label>
-    <input style="display: block" style="width: auto" class="input-medium bfh-phone" type="text"  data-format="+966 (ddd) ddd-dddd" required>
-  </div>
-                   
+  <div class="col-4" >
+  <label style="display:block" for="example-date-input" class="control-label" >رقم الجوال<span class="required"> *</span></label>
+    <input class="form-control input-medium bfh-phone" type="tel" placeholder="+966 (555) 555-5555" id="example-tel-input" required style="direction: ltr;">  
+   <!-- <input style="display: block" style="width: auto" class="input-medium bfh-phone" type="text"  data-format="+966 (555) 555-5555" required> -->
+  </div>                     
+      <!-- PhoneEnd -->              
                 
-      <!-- PhoneEnd -->           
-      
-                <input type="submit" value="Submit">
-      <!-- FormOfStudentEndHere -->
-      
-      <!-- FormOfStudentEndHere -->
+    <div class="col-4" style="margin: auto auto 0px auto; bottom: 0;">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+        <label class="form-check-label" for="invalidCheck2" style="font-size: 0.7em; padding-right: 20px;">
+        أوافـق على الأحكام والشروط
+      </label>
+        <button type="submit" class="btn btn-outline-success btn-lg btn-block">تـسجيل</button>
+         </div>
+                    
+                </div>     
+                        <!-- Fourth part of element "date , Phone and submit " End -->
                 
-          
-        
               </form>
+                                                <!-- FormOfStudentEndHere -->
+        
+            </div>
           </div>
-          </div>
-          </div>
+      </div>
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">الذهاب للأعلى</a></p>
