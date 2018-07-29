@@ -65,8 +65,18 @@ h2
     margin: 0 auto;
     border: 3px solid white;
     text-align: right;
+    
 }
 
+.studentBody
+{
+    display:none;
+}
+
+.teacherBody
+{
+    display:none;
+}
 label
 {
     font-size: 1.4em;
@@ -96,12 +106,17 @@ label
     
 }
 
-.col-md-3
+
+.containerHElement:hover , .containerHElement:hover #subHElementL, .containerHElement:hover #subHElementR 
 {
-   
+    background-color: inherit;
+    color: #28a745;
 }
 
-
+.containerHElement:hover
+{
+     background-color:white;
+}
 /*footer*/
 footer p
 {
