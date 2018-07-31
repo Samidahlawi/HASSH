@@ -1,8 +1,186 @@
+
+body{
+    background-color: #f5f5f5; /*#efefef*/
+    padding-top: 90px;
+}
+
+/* ************************************ */
+.sa-innate-form
+{
+    text-align: right;
+}
+.col-md-4
+{
+    border: 2px solid #efefef;
+    padding: 10px;
+}
+.panel-login>.panel-heading {
+	text-align:center;
+}
+
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 1.5em;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading li
+{
+    width: 40%;
+    margin-left: 10px;
+}
+
+
+.panel-login>.panel-heading a.active {
+	color: #029f5b;
+	font-size: 1.8em;
+    
+}
+
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+
+
+
+.innter-form{
+	padding-top:20px;
+    padding: 10px;
+}
+.final-login li{
+	width:50%;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs > li{
+	color:#222 !important;
+}
+
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.428571429;
+    border: none !important;
+    border-radius:none !important;
+	text-transform:uppercase;
+	font-size:1.2em;
+    padding: 5% 30%;
+}
+
+
+.nav li a
+{
+    font-family: "Harmattan";
+}
+
+#reg_std_teh 
+{
+    margin-top: 1px;
+}
+
+.social-login{
+	text-align:center;
+	font-size:12px;
+}
+.social-login p{
+	margin:15px 0;
+}
+.social-login ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.social-login ul li{
+	width:33%;
+	float:left;
+    clear:fix;
+}
+.social-login ul li a{
+	font-size:13px;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 0;
+	display:block;
+}
+.social-login ul li:nth-child(1) a{
+	background:#3b5998;
+}
+.social-login ul li:nth-child(2) a{
+	background:#e74c3d;
+}
+.social-login ul li:nth-child(3) a{
+	background:#3698d9;
+}
+.sa-innate-form input[type=text], input[type=password], input[type=file], textarea, select, email{
+    font-size:13px;
+	padding:10px;
+	border:1px solid#ccc;
+	outline:none;
+	width:100%;
+	margin:8px 0;
+	
+}
+.sa-innate-form input[type=submit]{
+    border:1px solid#e64b3b;
+	background:#e64b3b;
+	color:#fff;
+	padding:10px 25px;
+	font-size:14px;
+	margin-top:5px;
+	}
+	.sa-innate-form input[type=submit]:hover{
+	border:1px solid#db3b2b;
+	background:#db3b2b;
+	color:#fff;
+        
+	}
+	
+	.sa-innate-form button{
+	background:green;
+	color:#fff;
+	font-size:14px;
+	margin:8px auto;
+    border-radius: 10px;
+    display: block;
+    width: 70%;
+    height: 40px;
+	}
+	.sa-innate-form button:hover{
+	border:1px solid white;
+	background:darkgreen;
+	color:#fff;   
+	}
+    .sa-innate-form p{
+        font-size:13px;
+        padding-top:10px;
+    }
+
+
+input[type=text]:focus , input[type=password]:focus{
+  border: 1px solid green;
+}
+/***********/
+
+/* ////////////////////////////////////////////////////////////////////// */
 body
 {
-    background-image: url(../images/185808-OXENJI-55.jpg);
+    /*background-image: url(../images/185808-OXENJI-55.jpg);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:cover;*/
 }
 
 
@@ -10,7 +188,7 @@ body
 #containerMain
 {
     width: 80%;
-    height: 550px;
+    height: 570px;
     margin: 5%  auto 2% auto;
 }
 
@@ -23,22 +201,23 @@ body
 
 .containerHElement
 {
-    width: 41%;
+    width: 40%;
     background-color: #319c49; /*#58dd11*/
     display: inline-block;
-    height: 100%; 
+    height: 100%;
+
 }
 
 
 #conHElemntR
 {
-        margin-left: 8%;
+        margin: auto  auto auto 5% ;
 
 }
 
 #conHElemntL
 {
-        margin-right: 8%;
+        margin: auto  auto auto 5%;
 }
 
 h2
@@ -68,22 +247,35 @@ h2
     
 }
 
-.studentBody
+.fieldBody
 {
-    display:none;
+    width: 40%;
+    background-color: blue;
+    height: 80%;
+    float: right;
+    direction: rtl;
 }
 
-.teacherBody
-{
-    display:none;
-}
+
 label
 {
-    font-size: 1.4em;
-    color: white;
+    font-size: 1em;
+    color: black;
     direction: rtl;
     text-align: right;
+    font-family: "Tajawal","Harmattan";
+    margin: 10px 0 0 0;
 }
+
+
+/*
+.col-6 
+{
+    margin-bottom: 1.5rem!important;
+}
+*/
+
+/*
 
 .parts
 {
@@ -91,20 +283,7 @@ label
     width: 100%;
     margin-top: 10px;
 }
-
-.bothNames
-{
-    width: 50%;
-    margin: 0 auto;
-    
-}
-
-.parts-elm-3
-{
-    width: 25%;
-    margin: 0 auto;
-    
-}
+*/
 
 
 .containerHElement:hover , .containerHElement:hover #subHElementL, .containerHElement:hover #subHElementR 
@@ -118,7 +297,19 @@ label
      background-color:white;
 }
 /*footer*/
-footer p
+footer
 {
-    color: white;
+    padding-top: 10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #5a5a5a;
+    
 }
+
+
+
+
+/* ////////////////////////////////////// */

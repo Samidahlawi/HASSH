@@ -52,6 +52,130 @@
         </div>
       </nav>
     </header>
+      
+      <div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-12 col-sm-12" style="margin: 0 auto;">
+<div class="form-body panel-login">
+    <ul class="nav nav-tabs final-login panel-heading">
+        <li ><a id="login-form-link" data-toggle="tab" href="#sectionA">دخــول</a></li>
+        <li ><a id="register-form-link" data-toggle="tab" href="#sectionB">تسـجيـل</a></li>
+    </ul>
+    	<hr>
+    <div class="tab-content">
+        <div id="sectionA" class="tab-pane fade in active">
+        <div class="innter-form">
+            <form class="sa-innate-form" method="post">
+            <label>رقم الجوال</label>
+            <input type="text" name="username" placeholder="05xxxxxxxx" maxlength="10">
+            <label>رقم السري</label>
+            <input type="password" name="password">
+            <button type="submit"><span style="font-size: 20px;font-family: Lalezar">دخـول</span></button>
+            <a href="">نسيت الرقم السري؟</a>
+            </form>
+            </div>
+            <div class="social-login">
+            <p>- - - - - - - - - - - - - Sign In With - - - - - - - - - - - - - </p>
+    		<ul>
+            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+            <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+            <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+            </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div id="sectionB" class="tab-pane fade ">
+            <div class="form-body panel-login tab-content">
+            <ul id="reg_std_teh"class="nav nav-tabs final-login panel-heading">
+                <li ><a id="s_register" data-toggle="tab" href="#sectionS">طـالـب</a></li>
+                <li ><a id="t_register" data-toggle="tab" href="#sectionT">مـعـلم</a></li>
+            </ul>
+                
+            <hr style="width: 80%;margin: 0 auto">
+                
+                <div id="sectionS" class="tab-pane fade in active">
+			<div class="innter-form">
+            <form class="sa-innate-form" method="post">
+            <label>أسم المستخدم</label>
+            <input id="d" type="text" name="username" placeholder="اسم مستخدم او بريد الكتروني">
+            <label>رقم الجوال</label>
+            <input type="text" name="username" placeholder="05xxxxxxxx" maxlength="10">
+            <label>رقم السري</label>
+            <input type="password" name="password">
+            <button type="submit"><span style="font-size: 20px;font-family: Lalezar">تـسـجيــل</span></button>
+            <p>بـضغـطك على تسجيل,أنت توافق على الشروط والاحكام.</p>
+            </form>
+            </div>
+            <div class="social-login">
+            <p>- - - - - - - - - - - - - Register With - - - - - - - - - - - - - </p>
+			<ul>
+            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+            <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+            <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+            </ul>
+            </div>
+            </div> 
+            <!-- sectio_S END -->
+            
+                <!-- sectio_T START -->
+                <div id="sectionT" class="tab-pane fade ">
+			<div class="innter-form">
+            <form class="sa-innate-form" method="post">
+            <label>أسم المستخدم</label>
+            <input id="d" type="text" name="username" placeholder="اسم مستخدم او بريد الكتروني">
+            <label>الـلقـب</label>
+            <input id="d" type="text" name="username" placeholder="ابو اياد">
+            <label>رقم الجوال</label>
+            <input type="text" name="username" placeholder="05xxxxxxxx" maxlength="10">
+            <label>رقم السري</label>
+            <input type="password" name="password">
+            <div class="control-group col-12"  >          
+            <!-- GenderStart -->
+              <label class="control-label" for="gender">الجنس</label>
+              <div class="controls">
+                <label class="radio inline col-4" for="gender-0">
+                  <input name="gender" id="gender-0" value="Male" checked="checked" type="radio">
+                  ذكر
+                </label>
+                <label class="radio inline col-4" for="gender-1">
+                  <input name="gender" id="gender-1" value="Female" type="radio">
+                  أنثى
+                </label>
+              </div>
+             </div>
+            <button type="submit"><span style="font-size: 20px;font-family: Lalezar">تـسـجيــل</span></button>
+            <p>بـضغـطك على تسجيل,أنت توافق على الشروط والاحكام.</p>
+            </form>
+            </div>
+            <div class="social-login">
+            <p>- - - - - - - - - - - - - Register With - - - - - - - - - - - - - </p>
+			<ul>
+            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+            <li><a href=""><i class="fa fa-google-plus"></i> Google+</a></li>
+            <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+            </ul>
+            </div>
+            </div>
+                <!-- sectio_T END -->  
+                        
+                
+            </div>
+            
+            
+        </div>
+        <!-- sectio_S START -->
+        
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+      
+      
+      
+      
+      
+<!--
       <div id="body">
       <div id="containerMain">
       <header id="containerHeader">
@@ -63,247 +187,20 @@
           </div>
           </header>
           
-          <div id="containerBody" class="studentBody">
-                                                    <!-- FormOfStudentStartHere -->
-            <form class="needs-validation" novalidate>
-  
-      
-                                                            <!-- NameStart -->
-      <div class="parts">  
-      <!-- FirstNameStart -->
-      <div class="col-md-6 mb-6 col-6">
-      <label for="validationCustom01">الأسم الأول<span class="required"> *</span></label>
-      <input type="text" class="form-control" id="validationCustom01" placeholder="محمد"  required>
-    </div>
-      <!-- FirstNameEnd -->
-      
-      <!-- LastNameStart -->
-    <div class="col-md-6 mb-6 col-6">
-      <label for="validationCustom02">العائلة<span class="required"> *</span></label>
-      <input type="text" class="form-control" id="validationCustom02" placeholder="المحمد" required>
-      </div>
-      <!-- LastNameEnd -->  
+          <div id="containerBody" >
+          <div id="containerBodyL" class="fieldBody"></div>
+          <div id="containerBodyR" class="fieldBody"></div>
+         
+          </div>
           
-    
-    <!-- NicknameStart-->
-<!--
-      <div class="col-md-4 mb-3 col-6">
-      <label for="validationCustom02">اللـقب<span class="required"> *</span></label>
-      <input type="text" class="form-control" id="validationCustom02" placeholder="أبو يوسف" required>
+          
+          </div>
       </div>
+      
 -->
-          <!-- NicknameEnd-->
-          
-      </div>
-                                                            <!-- NameEnd -->
-           
-                                                    <!-- EmailWithPasswordWithConfirmStart -->
-      <div class="parts">  
-          <!-- EmailStart -->
-      <div class="col-4">
-    <label for="inputEmail" class="control-label">البريد الألكتروني<span class="required"> *</span></label>
-    <input type="email" class="form-control" id="inputEmail" placeholder="xx@xxxxxx.com" data-error="Bruh, that email address is invalid" required>
-        <!--  <div class="help-block with-errors"></div>-->
-  </div>
-  <!-- EmailEnd -->
-          
-          <!-- PasswordStart -->
-  <div class="col-4">
-    <label for="inputPassword" class="control-label">الرقم السري<span class="required"> *</span></label>
-      <div class="form-group">
-        <input type="password" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required>
-        <!-- <div class="help-block"></div>-->
-      </div>
-  </div>
-          <!-- PasswordEnd -->
-        <!-- VerfiyPasswordStart-->
-      <div class="col-4">
-          <label for="inputPasswordConfirm" class="control-label">تأكيد الرقم السري<span class="required"> *</span></label>
-        <input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm" required>
-       <!-- <div class="help-block with-errors"></div>-->
-      </div>
-    <!-- VerfiyPasswordEnd-->
-      </div>
-                                            <!-- EmailWithPasswordWithConfirmEnd -->
-                                        <!-- third level of element Start  Sex , city and level of study -->
-      <div class="parts">
-      <!-- DivGenderAndCityStart -->
-        <div class="control-group col-4"  >          
-            <!-- GenderStart -->
-  <label class="control-label" for="gender">الجنس<span class="required"> *</span></label>
-  <div class="controls">
-    <label class="radio inline col-4" for="gender-0">
-      <input name="gender" id="gender-0" value="Male" checked="checked" type="radio">
-      ذكر
-    </label>
-    <label class="radio inline col-4" for="gender-1">
-      <input name="gender" id="gender-1" value="Female" type="radio">
-      أنثى
-    </label>
-  </div>
-         </div>
-      <!-- GenderEnd -->
       
-      <!-- CityStart -->
-      <div class="form-group col-4" id="divCity">
-    <label class="mandatory control-label">المدينة<span class="required"> *</span></label>
-    <div class="LargeDropDownListCityId" >
-        <select id="CityId" class="form-control"  required>
-        	<option value="">اختر...</option>
-            <option value="1">الرس</option>
-            <option value="2">شقراء</option>
-            <option value="3">النماص</option>
-            <option value="4">بلجرشي</option>
-            <option value="5">املج</option>
-            <option value="6">بارق </option>
-            <option value="7">العويقلية</option>
-            <option value="8">سلوى</option>
-            <option value="9"> عنك</option>
-            <option value="10">حوطة بني تميم</option>
-            <option value="11">الرماح</option>
-            <option value="12">ضبا</option>
-            <option value="13">وادي الدواسر</option>
-            <option value="14">صبيا</option>
-            <option value="15">حوطة سدير</option>
-            <option value="16">الباحة</option>
-            <option value="17">الوجه</option>
-            <option value="18">صفوى</option>
-            <option value="19">تاروت</option>
-            <option value="20">العلا</option>
-            <option value="21">رابغ</option>
-            <option value="22">القيصومة</option>
-            <option value="23">المذنب</option>
-            <option value="24">خيبر</option>
-            <option value="25">طبرجل</option>
-            <option value="26">القنفذة</option>
-            <option value="27"> محايل عسير</option>
-            <option value="28">الدمام</option>
-            <option value="29">الدوادمي</option>
-            <option value="30">الواديين</option>
-            <option value="31">البدائع</option>
-            <option value="32">قرية العليا</option>
-            <option value="33">رفحة </option>
-            <option value="34">الاحساء</option>
-            <option value="35">الهياثم </option>
-            <option value="36">المزاحمية</option>
-            <option value="37">الطائف</option>
-            <option value="38">عفيف</option>
-            <option value="39">بيشة</option>
-            <option value="40">رأس تنورة</option>
-            <option value="41">طريف</option>
-            <option value="42">البيكيرية</option>
-            <option value="43">أحد رفيدة</option>
-            <option value="44">عرعر</option>
-            <option value="45">الذيبية</option>
-            <option value="46">بقيق</option>
-            <option value="47">مدينة العيون</option>
-            <option value="48">القويعية</option>
-            <option value="49">حرمة</option>
-            <option value="50">الدلم</option>
-            <option value="51">الضبيعة</option>
-            <option value="52">القطيف</option>
-            <option value="53">المجمعة </option>
-            <option value="54">دومة الجندل</option>
-            <option value="55">أبها</option>
-            <option value="56">خليص</option>
-            <option value="57">شرورة</option>
-            <option value="58">الظهران</option>
-            <option value="59">مدينة الملك عبد الله الاقتصادية</option>
-            <option value="60">الخرج</option>
-            <option value="61">المدينة المنورة</option>
-            <option value="62">نجران</option>
-            <option value="63">ينبع</option>
-            <option value="64">تبوك</option>
-            <option value="65">مكة المكرمة</option>
-            <option value="66">سيهات </option>
-            <option value="67">الخبر</option>
-            <option value="68">الخفجي</option>
-            <option value="69">المبرز</option>
-            <option value="70">الجبيل</option>
-            <option value="71">خميس مشيط</option>
-            <option value="72">جده</option>
-            <option value="73">الهفوف</option>
-            <option value="74">النعيرية</option>
-            <option value="75">القريات </option>
-            <option value="76">الزلفي</option>
-            <option value="77">رياض الخبراء</option>
-            <option value="78">الرياض</option>
-            <option value="79">أبوعريش</option>
-            <option value="80">جازان</option>
-            <option value="81">عنيزة</option>
-            <option value="82">حفر الباطن</option>
-            <option value="83">سكاكا</option>
-            <option value="84">حائل</option>
-            <option value="85">بريدة</option>        
-            </select>
-    </div>
-</div>
-            <!-- CityEnd -->
-            
-           
-            <!-- DivGenderAndCityEnd -->
-     
-                
-                
-                
-      <!-- DegreeStart --> 
-                <div class="form-group col-4" id="divCity">
-                    <label class="mandatory control-label">المرحلة الدراسية<span class="required"> *</span></label>
-                <div class="LargeDropDownListCityId" >
-                    <select id="CityId" class="form-control"  required> 
-                    <option value="">اختر...</option>
-                    <option value="01">الأبتدائي</option>
-                    <option value="02">المتوسط</option>
-                    <option value="03">الثانوي</option>
-                    <option value="">الجامعي</option>
-                    </select>
-                    </div>
-          </div>
-                
-               
-      <!-- DegreeEnd -->
-                  
-                </div>
-                      <!-- third level of element   "Sex , city and level of study" End -->
-
-     <div class="parts">        <!-- Fourth part of element "date , Phone and submit " Start -->
-      <!-- DateStart -->
-      <div class="col-4">
-  <label for="example-date-input" class="control-label" >تاريخ الميلاد<span class="required"> *</span></label>
-    <input style="width: 100%" class="form-control" type="date"  id="example-date-input" required>
-  </div>
-      <!-- DateEnd -->
-                
-                
-      <!-- PhoneStart -->
-  <div class="col-4" >
-  <label style="display:block" for="example-date-input" class="control-label" >رقم الجوال<span class="required"> *</span></label>
-    <input class="form-control input-medium bfh-phone" type="tel" placeholder="+966 (555) 555-5555" id="example-tel-input" required style="direction: ltr;">  
-   <!-- <input style="display: block" style="width: auto" class="input-medium bfh-phone" type="text"  data-format="+966 (555) 555-5555" required> -->
-  </div>                     
-      <!-- PhoneEnd -->              
-                
-    <div class="col-4" style="margin: auto auto 0px auto; bottom: 0;">
-        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-        <label class="form-check-label" for="invalidCheck2" style="font-size: 0.7em; padding-right: 20px;">
-        أوافـق على الأحكام والشروط
-      </label>
-        <button type="submit" class="btn btn-outline-success btn-lg btn-block">تـسجيل</button>
-         </div>
-                    
-                </div>     
-                        <!-- Fourth part of element "date , Phone and submit " End -->
-                
-              </form>
-                                                <!-- FormOfStudentEndHere -->
-        
-            </div>
-          <div id="containerBody" class="teacherBody"></div>
-          </div>
-      </div>
       <!-- FOOTER -->
       <footer class="container">
-        <p class="float-right"><a href="#">الذهاب للأعلى</a></p>
         <p> جميع الحقوق محفوظه لموقع حـصـة  2018 - 2016 &copy; &middot; <a href="#"> خصوصية</a> &middot; <a href="#"> حول</a></p>
       </footer>
     
